@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0.5rem auto;
+    font-family: 'Bebas Neue', monospace;
+
+}
+
+header {
+    background-color: #203F7E;
+    display: block;
+    padding: 10px;
+    color: #99FF99;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+
+}
+
+h2 {
+
+    margin-left: 10px;
+
+}
+
+footer {
+    background-color: #203F7E;
+    padding: 20px;
+    color: #99FF99;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+main {
+    padding: 25px;
+    border-top: #203F7E solid 3px;
+    border-bottom: #203F7E solid 3px;
+    margin: 10px;
+}
+
+#modified {
+    color: azure;
+}

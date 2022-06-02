@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em) {
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 24px;
+
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        border-radius: 10px 10px 10px 10px;
+        width: 500px;
+        align-items: center;
+        justify-items: center;
+        box-shadow: 4px 8px 12px 10px #888888;
+
+    }
+
+    footer {
+
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 4px 8px 12px 10px #888888;
+    }
+}

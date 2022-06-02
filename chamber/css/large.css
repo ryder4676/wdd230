@@ -1,0 +1,96 @@
+@media only screen and (min-width: 64rem) {
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav button {
+        display: block;
+    }
+
+
+
+    #container {
+        height: 640px;
+        display: grid;
+        grid-template-columns: 213px 213px 213px 213px;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+
+    #container div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: left;
+        padding: 10px;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* #container div div {
+        margin-left: 15px;
+        margin-right: 15px;
+
+    } */
+
+    .event {
+        grid-area: 1 / 1;
+    }
+
+    .hero {
+        grid-area: 1 / 2 / span 2 / span 2;
+        height: 410px;
+    }
+
+    .spotlights {
+        grid-area: 1 / 4 / span 3 / 4;
+    }
+
+    .weather {
+        grid-area: 2 / 1;
+    }
+
+    .join {
+        grid-area: 3 / 1;
+    }
+
+    .newreleases {
+        grid-area: 3 / 2 / 4 / span 2;
+    }
+
+
+    .spotlightbox1 {
+        height: 200px;
+        border: 1px #003F91 solid;
+    }
+
+    .spotlightbox2 {
+        height: 200px;
+    }
+
+    .spotlightbox3 {
+        height: 200px;
+        display: block;
+    }
+
+    footer {
+        justify-content: space-around;
+
+    }
+
+    footer section {
+        display: inline-block;
+        grid-template-columns: auto auto auto auto;
+
+    }
+
+    footer div {
+        border-top: 1px #ffffff solid;
+        display: inline-flex;
+        flex-direction: row;
+
+    }
+}

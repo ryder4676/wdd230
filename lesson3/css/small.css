@@ -1,0 +1,155 @@
+/* COLORS 
+ https://coolors.co/e5f4e3-5da9e9-003f91-ffffff-6d326d 
+ -- honeydew - Green              #e5f4e3; 
+ -- blue-jeans - light Blue       #5da9e9; 
+ -- dark-cornflower - Flyer Blue: #003F91; 
+ -- white - Flyer White           #ffffff;
+ -- midnight  Purple              #6d326d;  */
+
+/* FONTS */
+/* font-family: PARAGRAPH 'Radio Canada', sans-serif; 
+   font-family: HEADINGS 'Ubuntu', sans-serif; */
+
+
+/* small size veiw like phones  */
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Radio Canada', sans-serif;
+    background-color: #ffffffff;
+    max-width: 800px;
+
+
+    /* centers the whole page */
+}
+
+main p {
+    font-size: 16px;
+}
+
+
+header,
+footer {
+    background-color: #003F91;
+    color: #ffffff;
+    text-align: center;
+    padding: .5rem;
+    margin: 10px;
+
+    /* border-radius: 1rem 1rem 0rem 0rem;
+     text-shadow: 0 2px 2px rgba(2, 0, 0, 0.764);
+    box-shadow: 5px 5px 7px grey; */
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    color: #ffffffff;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: #5da9e9;
+    color: #e5f4e3;
+}
+
+nav {
+    background-color: #003F91;
+    text-align: center;
+
+}
+
+nav ul li a {
+    display: block;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+section {
+    padding: 10px;
+}
+
+img {
+    margin: 15px;
+    align-items: center;
+
+}
+
+.persona {
+    float: right;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #5da9e9;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+th {
+    background-color: #5da9e9;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+td {
+    height: 55px;
+    text-align: center;
+
+}
+
+table {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.primary {
+    background-color: #003F91;
+    border: 1px solid black;
+}
+
+.secondary {
+    background-color: #ffffff;
+    border: 1px solid black;
+
+}
+
+.accent1 {
+    background-color: #5da9e9;
+    border: 1px solid black;
+}
+
+.accent2 {
+    background-color: #e5f4e3;
+    border: 1px solid black;
+}
+
+#modified {
+    color: #e5f4e3;
+}

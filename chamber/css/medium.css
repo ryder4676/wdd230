@@ -1,0 +1,50 @@
+@media only screen and (min-width: 35rem) {
+    nav button {
+        display: flex;
+
+    }
+
+    nav ul#primaryNav {
+        display: none;
+        /* justify-content: flex-end; <--right side alignment-- or can use center or flex-start <-- left alignment or don't write anything to left align also. */
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        /* display: none; */
+
+    }
+
+    .newreleases {
+        grid-area: 2 / 1 / span 2 / span 2;
+        order: 1;
+
+    }
+
+    .spotlights {
+        grid-area: 5 / 1 / span 2 / span 2;
+        order: 2;
+
+    }
+
+    .join {
+        grid-area: 6 / 1 span 2;
+        order: 3;
+        display: flex;
+        height: 200px;
+    }
+
+    .event {
+        order: 5;
+
+
+    }
+
+    .weather {
+        order: 5;
+
+    }
+
+}

@@ -1,0 +1,235 @@
+/* COLORS 
+ https://coolors.co/e5f4e3-5da9e9-003f91-ffffff-6d326d 
+ -- honeydew - Green              #e5f4e3; 
+ -- blue-jeans - light Blue       #5da9e9; 
+ -- dark-cornflower - Flyer Blue: #003F91; 
+ -- white - Flyer White           #ffffff;
+ -- midnight  Purple              #6d326d;  */
+
+/* FONTS */
+/* font-family: PARAGRAPH 'Radio Canada', sans-serif; 
+   font-family: HEADINGS 'Ubuntu', sans-serif; */
+
+/* small size veiw like phones  */
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Radio Canada', sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+
+    border: 3px solid #003F91;
+    background-color: #ffffff;
+
+}
+
+#header_top {
+    display: flex;
+
+}
+
+header p {
+    text-align: center;
+    background-color: #003F91;
+    color: #ffffff;
+    padding: 6px;
+    margin: 0px 5px 10px 5px;
+}
+
+header picture {
+    margin: 12px 10px 0px 10px;
+}
+
+header section {
+    margin: 0;
+}
+
+header div {
+    color: #003F91;
+    text-align: center;
+    display: flex;
+}
+
+.social {
+    margin-right: 1.5rem;
+}
+
+.social svg {
+    width: 25px;
+    height: auto;
+}
+
+
+h1 {
+    margin: 30px 0px 5px 0px;
+    color: #003F91;
+}
+
+h2 {
+    color: #003F91;
+
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+
+nav {
+    background-color: #5da9e9;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(#003F91, 0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(#003F91 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+#container {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+#container div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 10px;
+    font-size: 24px;
+    margin: 0;
+    color: #003F91;
+    border: 1px solid #003F91;
+}
+
+/* #container div div {
+    margin-left: 15px;
+    margin-right: 15px;
+
+} */
+
+.hero {
+    grid-area: 1 / 1 / span 2 / span 2;
+    order: 1;
+    height: 200px;
+
+
+}
+
+.newreleases {
+    grid-area: 2 / 1 / span 2 / span 2;
+    order: 4;
+    height: 200px;
+
+
+}
+
+.event {
+    grid-area: 3 / 1 / span 2 / span 2;
+    order: 2;
+    height: 200px;
+
+}
+
+.spotlights {
+    grid-area: 5 / 1 / span 2 / span 2;
+    order: 5;
+
+}
+
+.weather {
+    grid-area: 3 / 1 / span 2 / span 2;
+    order: 3;
+    height: 200px;
+}
+
+.join {
+    grid-area: 6 / 1;
+    display: none;
+}
+
+.spotlightbox1 {
+    height: 200px;
+
+
+}
+
+.spotlightbox2 {
+    height: 200px;
+
+
+}
+
+.spotlightbox3 {
+    height: 200px;
+
+    display: none;
+}
+
+footer {
+    border: 3px solid #003F91;
+    text-align: center;
+    text-align: center;
+    background-color: #003F91;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
