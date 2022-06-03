@@ -4,7 +4,9 @@ const Btn = document.querySelector("button");
 Btn.addEventListener("click", () => {
     const myItem = listInput.value;
     listInput.value = "";
-
+    if (myItem === "") {
+        return;
+    };
     const listItems = document.createElement("li");
     const listText = document.createElement("span");
     const listBtn = document.createElement("button");
@@ -18,6 +20,7 @@ Btn.addEventListener("click", () => {
     listBtn.addEventListener("click", () => {
         list.removeChild(listItems);
     });
+
 
     listInput.focus();
 });
