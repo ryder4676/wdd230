@@ -5,7 +5,7 @@
     }
 
     nav ul#primaryNav {
-        display: none;
+        display: flex;
         /* justify-content: flex-end; <--right side alignment-- or can use center or flex-start <-- left alignment or don't write anything to left align also. */
         border-left: 1px solid rgba(0, 0, 0, 0.3);
     }
@@ -23,28 +23,75 @@
 
     }
 
-    .spotlights {
-        grid-area: 5 / 1 / span 2 / span 2;
-        order: 2;
 
-    }
 
-    .join {
-        grid-area: 6 / 1 span 2;
-        order: 3;
-        display: flex;
-        height: 200px;
-    }
+
 
     .event {
-        order: 5;
-
+        order: 4;
+        grid-column: 1/2;
+        grid-row: 5/6;
 
     }
 
     .weather {
         order: 5;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        border-radius: unset;
+    }
+
+    footer div:nth-child(1) {
+        border-top: none;
+        border-bottom: 1px #ffffff solid;
+        display: inline-flex;
+        justify-content: space-between;
 
     }
+
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .newreleases {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .spotlights {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .spotlightbox1 {
+        height: 230px;
+    }
+
+    .join {
+        grid-row: 4/5;
+        grid-column: 1/3;
+
+        display: contents;
+        display: block;
+
+
+    }
+
+    .join h2 {
+        border: 1px solid black;
+        padding: 20px;
+    }
+
+    .join p {
+        padding: 15px;
+    }
+
 
 }
