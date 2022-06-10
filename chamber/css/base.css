@@ -28,12 +28,10 @@ header {
 
     border: 3px solid #003F91;
     background-color: #ffffff;
-
 }
 
 #header_top {
     display: flex;
-
 }
 
 header p {
@@ -84,7 +82,6 @@ nav button {
     border: none;
     font-size: 2rem;
     color: #555;
-
 }
 
 nav {
@@ -96,8 +93,6 @@ nav ul {
     padding: 0;
     margin: 0;
 }
-
-
 
 #primaryNav li:first-child {
     display: block;
@@ -163,7 +158,6 @@ nav ul.open {
     font-size: 24px;
     color: #003F91;
     border: 1px solid #003F91;
-
 }
 
 .hero {
@@ -175,12 +169,9 @@ nav ul.open {
     padding: 0;
 }
 
-
-
 div .hero img {
     width: 100%;
     height: auto;
-
 }
 
 #container div .topleft {
@@ -190,7 +181,6 @@ div .hero img {
     font-size: 22px;
     background-color: unset;
     border: none;
-
 }
 
 #container div .hero-bottom {
@@ -201,8 +191,6 @@ div .hero img {
     position: absolute;
     bottom: 22px;
     right: 16px;
-
-
 }
 
 .newreleases {
@@ -249,9 +237,7 @@ div .hero img {
 
 li {
     margin-left: 20px;
-
 }
-
 
 .spotlights {
     grid-area: 5 / 1 / span 2 / span 2;
@@ -264,11 +250,12 @@ li {
     order: 3;
     width: 320px;
     border-radius: 8px;
-
 }
 
 .weather h2 {
     border-bottom: #003F91 1px dotted;
+    text-align: center;
+    padding: 10px;
 }
 
 .weather img {
@@ -292,38 +279,23 @@ li {
     text-align: left;
 }
 
-#container .weather h2 {
-    text-align: center;
-    padding: 10px;
-}
-
 .what-weather-doing {
     border-radius: 10px;
-
     font-size: 18px;
 }
 
 .join {
-
     display: none;
 }
 
-/* 
-.spotlights {
-    margin: 0;
-} */
-
 .spotlightbox1 {
     height: 100%;
-
 }
 
 .spotlightbox1 img {
     width: 110px;
     float: right;
-
     margin-top: 15px;
-
 }
 
 .spotlightbox1 h2 {
@@ -334,7 +306,6 @@ li {
 .spotlightbox1 p {
     padding: 10px;
     text-align: left;
-
 }
 
 .spotlightbox2 {
@@ -344,14 +315,12 @@ li {
 .spotlightbox2 img {
     width: 110px;
     height: auto;
-
 }
 
 .spotlightbox2 picture {
     display: flex;
     justify-content: center;
     padding: 10px;
-
 }
 
 .spotlightbox2 ul {
