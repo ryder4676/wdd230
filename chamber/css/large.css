@@ -15,6 +15,17 @@
 
     }
 
+    main picture.myphoto {
+        height: 100%;
+        border: 1px red dashed;
+
+    }
+
+    main picture.myphoto img {
+        height: 100%;
+    }
+
+
 
 
     #container {
@@ -31,7 +42,7 @@
     #container div {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        padding: 10px;
+        /* padding: 10px; */
         font-size: 18px;
         margin: 0;
 
@@ -74,7 +85,7 @@
 
     .hero {
         grid-area: 1 / 2 / span 2 / span 2;
-        height: 410px;
+
         display: flex;
     }
 
