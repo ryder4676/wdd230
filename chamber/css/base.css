@@ -55,7 +55,7 @@ header section {
     margin: 0;
 }
 
-header div {
+#header-top {
     color: #003F91;
     text-align: center;
 
@@ -273,7 +273,7 @@ div .hero img {
 
 .weather p {
     text-align: center;
-    padding: 8px;
+    padding: 2px;
 
 }
 
