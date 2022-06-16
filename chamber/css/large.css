@@ -10,10 +10,15 @@
 
     }
 
-    nav button {
+    #hamburgerBtn span:nth-child(1) {
+        display: none;
+    }
+
+    /* nav button {
         display: block;
 
-    }
+    } */
+
 
     main picture.myphoto {
         height: 100%;

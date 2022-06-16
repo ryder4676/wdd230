@@ -4,7 +4,7 @@
 
     }
 
-    nav ul#primaryNav {
+    nav #primaryNav.open {
         display: flex;
         /* justify-content: flex-end; <--right side alignment-- or can use center or flex-start <-- left alignment or don't write anything to left align also. */
         border-left: 1px solid rgba(0, 0, 0, 0.3);
@@ -23,6 +23,11 @@
 
     }
 
+    header div {
+        color: #003F91;
+        text-align: center;
+        display: flex;
+    }
 
 
 

@@ -5,7 +5,7 @@ function toggleMenu() {
     document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 
-x.onclick = toggleMenu;
+x.addEventListener("click", toggleMenu);
 
 const d = new Date();
 //console.log(d)
