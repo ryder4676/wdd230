@@ -28,11 +28,12 @@ header {
 
     border: 3px solid #003F91;
     background-color: #ffffff;
+
 }
 
-#header_top {
-    display: flex;
-}
+/* #header_top {
+    display: grid;
+} */
 
 header p {
     text-align: center;
@@ -40,25 +41,41 @@ header p {
     color: #ffffff;
     padding: 6px;
     margin-bottom: 8px;
+    /* width: 200px; */
 
 }
 
-header section p {
-    width: 200px;
-}
+/* header section p {} */
 
 header picture {
-    margin: 12px 10px 0px;
+
+    display: flex;
+    /* grid-column: 1;
+    grid-row: 1; */
+
 }
 
 header section {
-    margin: 0;
+    margin: auto;
 }
 
 #header-top {
     color: #003F91;
     text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 140px 80px;
 
+}
+
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.town {
+    grid-column: 2;
+    grid-row: 1;
 }
 
 /* .social {
@@ -70,10 +87,16 @@ header section {
     height: auto;
 }
 
+.social {
+    float: right;
+    margin: 8px;
+}
+
 
 h1 {
     margin: 10px 0px 5px 0px;
     color: #003F91;
+    text-align: center;
 }
 
 h2 {
@@ -86,7 +109,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: #ffffff;
 }
 
 nav {
@@ -107,7 +130,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     border-top: 1px solid #003f91;
 }
 
@@ -131,6 +154,11 @@ nav ul.open {
 
 #hamburgerBtn span:nth-child(1) {
     display: block;
+}
+
+#hamburgerBtn {
+    grid-column: 1;
+    grid-row: 2;
 }
 
 #hamburgerBtn span:nth-child(2) {
@@ -375,4 +403,123 @@ footer img {
 
 footer p {
     padding-top: 10px;
+}
+
+#discovery {
+    width: 1100px;
+    background-color: #2196F3;
+    color: #ffffff;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 28px;
+
+}
+
+#discovery p::first-letter {
+    font-size: 300%;
+
+}
+
+.linksdiscovery a {
+    background-color: #003F91;
+    color: #ffffff;
+    height: 50px;
+
+    float: left;
+    padding: 10px;
+}
+
+.linksdiscovery li {
+    list-style-type: none;
+
+}
+
+.storylinks {
+    -webkit-text-stroke-width: medium;
+
+    padding: 10px;
+    width: 550px;
+    height: 50px;
+}
+
+.museum {
+    display: grid;
+
+}
+
+.joinLandingPage {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #5da9e9;
+}
+
+#membershipSelect {
+    padding: 10px;
+    margin: 12px;
+}
+
+.joinMemberships {
+    background-color: #ffffff;
+    color: #003F91;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 12px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    height: 440px;
+}
+
+.joinMemberships p {
+    padding: 5px;
+
+}
+
+.bronzesilvergold {
+    display: flex;
+    justify-content: center;
+}
+
+.joinform {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.price {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-weight: 900;
+
+}
+
+.discounts {
+    position: absolute;
+    bottom: 55px;
+    width: 100%;
+}
+
+.joinform {
+    width: 600px;
+    border: 4px black double;
+    columns: 2 /3;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.forms {
+    padding: 10px;
+}
+
+.bizinfo {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+}
+
+.submit {
+    padding: 20px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+
 }

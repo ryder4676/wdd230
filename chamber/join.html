@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fort Macleod Chamber of Commerce.</title>
+    <title>Discover more about Fort Macleod.</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -15,14 +15,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="fm.ico" type="image/x-icon">
     <meta name="description"
-        content="This homepage is all about Fort Macleod's local Chamber of Commerce. General information about the community will be found here.">
+        content="Here you will learn what brings people to Fort Macleod. Discovering all the things you need to know about this historic place.">
 </head>
 
 <body>
     <header>
-        <div id="header-top">
-            <picture class="logo"><img src="images/fortmacleodlogo3.webp" alt="Fort Macleod chamber logo"></picture>
-            <section class="town">
+        <div id="#header-top">
+            <picture><img src="images/fortmacleodlogo3.webp" alt="Fort Macleod chamber logo"></picture>
+            <section>
                 <h1>Fort Macleod</h1>
                 <p>Chamber of Commerce</p>
             </section>
@@ -276,100 +276,91 @@
 
         <p><span id="currentdate"></span></p>
 
-
     </header>
-    <main>
-        <div id="container">
-            <div class="event">
-                <h3>Annual U-18 Rodeo!</h3>
-                <p>---> Rodeo Grounds &lt;--- </p>
 
-                <img src="images/rodeo.png" alt="Cowboy bullriding animation">
+    <main class="joinLandingPage">
+        <section class="joinMemberships">
+            <h2>NP Membership</h2>
+            <picture class="bronzesilvergold"><img src="images/nonprofit.png" alt="Handshake Non Profit Logo"></picture>
+            <p>Services and programs available to ALL Registered Non Profit Organizations FREE of Charge!</p>
+            <div class="discounts">*Discounts for multiple accounts</div>
+            <div class="price">$0 upon Approval</div>
 
-                <ul>
-                    <li>Food</li>
-                    <li>Drinks</li>
-                    <li>Games</li>
-                    <li>Rodeo-ing</li>
-                </ul>
+        </section>
+        <section class="joinMemberships">
+            <h2>Bronze Membership</h2>
+            <picture class="bronzesilvergold"><img src="images/bronze.png" alt="Bronze coin"></picture>
+            <p>Entry level acess to chamber programs and services.</p>
+            <div class="discounts">*Discounts for multiple accounts</div>
+            <div class="price">$199.99</div>
 
+        </section>
+        <section class="joinMemberships">
+            <h2>Silver Membership</h2>
+            <picture class="bronzesilvergold"><img src="images/silver.png" alt="Silver coin"></picture>
+            <p>Bronze membership plus Increased Visibility of your business news and events.</p>
+            <div class="discounts">*Discounts for multiple accounts</div>
+            <div class="price">$499.99</div>
 
-            </div>
+        </section>
+        <section class="joinMemberships">
+            <h2>Gold Membership</h2>
+            <picture class="bronzesilvergold"><img src="images/gold.png" alt="Gold coin"></picture>
+            <p>Silver membership plus marketing consultation, access chamber research, legistlation, workforce, and
+                economic developement plan.</p>
+            <div class="discounts">*Discounts for multiple accounts</div>
+            <div class="price">$799.99</div>
+        </section>
+        <section class="joinform">
+            <h3>Chamber of Commerce Application</h3>
 
-            <div class="hero">
-                <!-- srcset="images/golgotha200.jpg 200w, images/golgotha500.jpg 500w, images/golgotha800.jpg 800w, images/golgotha1100.jpg 1100w -->
-                <picture class="myphoto">
-                    <img src="images/historic-fortmacleod.jpg" alt="Fort Macleod Sign"
-                        srcset="images/historic-fortmacleod.jpg 600w, images/historic-fortmacleod.jpg 800w, images/images/historic-fortmacleod.jpg 900w">
-                </picture>
-                <div class="topleft">
-                    <h2>Welcome to Fort Macleod!</h2>
+            <form action="" method="get" class="forms">
+                <select name="membershipselect" id="membershipSelect">
+                    <option value="0">Choose a membership:</option>
+                    <option value="1">Non Profit</option>
+                    <option value="2">Bronze Membership</option>
+                    <option value="3">Silver Membership</option>
+                    <option value="4">Gold Membership</option>
+                </select>
+
+                <div class="forms">
+                    <label for="name">Enter your first name: </label>
                 </div>
-                <div class="hero-bottom">
-                    Join the Chamber!
-                </div>
-
-
-
-
-            </div>
-
-            <div class="spotlights">
-                <div class="spotlightbox1">
-                    <h2>Gamers'R Us!</h2>
-                    <img src="images/gamecontroller.png" alt="Gamepad Controller black and white">
-                    <p>This weekend for a Mario Party Tournament! Start time Friday @ 6:00 pm. See you there!
-                        Register: (1)-403-553-7777</p>
+                <div>
+                    <input type="text" name="fname" id="fname" required>
 
                 </div>
-                <div class="spotlightbox2">
-                    <h2>Durable Roofing</h2>
-                    <p>We provide free estimates. Remove/Replace, or Repairs. </p>
-                    <img src="images/roof.jpg" alt="Shingles blown off Roof."><img src="images/roof2.jpg"
-                        alt="blown off shingles on roof">
-                    <ul>
-                        <li>(1)-403-553-8888</li>
-                    </ul>
+                <div class="forms">
+                    <label for="name">Enter your last name: </label>
+                    <input type="text" name="lname" id="lname" required>
                 </div>
-                <div class="spotlightbox3">
-                    <h2>Dairy Queen</h2>
-                    <p>Dairy Queen Grand Opening June 14, 2022!</p>
-                    <p>Come on down and support your local business.</p>
+                <div class="forms">
+                    <label for="name">Your Job Title: </label>
+                    <input type="text" name="jobtitle" id="jobtitle" required>
                 </div>
-
-            </div>
-            <div class="weather">
-                <h2>Weather</h2>
-                <!-- <p>Hi temperature: -20&#8451;</p>
-                <p>Lo temperature: +20&#8451;</p> -->
-                <p>Current Temp: <span id="temp">-9 &#8451;</span></p>
-                <p>Wind Speed: <span id="windSpeed">10 &#8451;</span></p>
-                <p>Windchill: <span id="wchill"></span></p>
-
-                <div class="what-weather-doing">
-                    <img src="images/weahter1.png" alt="Sunny and Windy animation">
-                    <p>It might snow...</p>
-                    <p>It might Blow...</p>
-                    <p>It might be Sunny?</p>
+                <div class="forms">
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
                 </div>
-            </div>
-            <div class="join">
+                <div class="forms">
+                    <label for="bizinfo">Tell us more about your business:</label>
+                    <input type="textarea" name="bizinfo" class="bizinfo" required />
+                </div>
+                <div><input type="hidden" id="date" name="date" value="CurrentTime">
+                    <input type="hidden" id="time" name="time" value="CurrentDate">
+                </div>
+                <div class="forms">
+                    <input type="submit" value="Join the chamber!" class="submit">
+                </div>
+            </form>
+        </section>
 
-                <h2>Join The chamber</h2>
-                <p>Discover all the benifits the Chamber is to you and your organization.</p>
 
 
-            </div>
-            <div class="newreleases">
-                <h2>Extras for movie needed!</h2>
-                <p>Producers of a movie are looking for extras to fill in spots in a movie being filmed here in Fort
-                    Macleod. If you are interested, and for more information please follow this <a href="#">link.</a>
-                </p>
-            </div>
 
-        </div>
 
     </main>
+
     <footer>
         <div>
             <picture><img src="images/fortmacleodlogo3.png" alt="Fort Macleod chamber logo"></picture>

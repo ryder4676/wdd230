@@ -27,9 +27,20 @@
         color: #003F91;
         text-align: center;
         display: flex;
+        align-items: end;
     }
 
+    header picture {
+        margin: unset;
+    }
 
+    .social {
+        margin: auto auto;
+    }
+
+    .social a {
+        padding: 1.5%;
+    }
 
 
     .event {
