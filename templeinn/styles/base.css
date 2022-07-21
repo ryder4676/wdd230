@@ -1,0 +1,311 @@
+/* https://coolors.co/ff6700-ebebeb-c0c0c0-3a6ea5-004e98
+--safety-orange-blaze-orange: #ff6700;
+--platinum: #ebebeb;
+--silver: #c0c0c0;
+--queen-blue: #3a6ea5;
+--usafa-blue: #004e98; 
+
+font-family: 'Lora', serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #c0c0c0;
+    font-size: 18px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+}
+
+
+header {
+    background-color: #004e98;
+    color: #EBEBEB;
+    display: flex;
+
+}
+
+footer {
+    background-color: #004e98;
+    color: #EBEBEB;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+footer section {
+    padding: 15px;
+}
+
+nav button {
+
+    background-color: transparent;
+    /* transparent to whatever backround color is */
+    border: none;
+    font-size: 2rem;
+    color: #ebebeb;
+    padding: 6px;
+}
+
+.hamburgerLines {
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    /* gets rid of bullets */
+    /* padding: 0;
+    margin: 0; */
+}
+
+/* nav ul li a {
+    border-top: 3px solid #3a6ea5;
+} */
+
+#primaryNav li:first-child {
+    display: block;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+nav button {
+    margin: .2rem 1vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #c0c0c0;
+}
+
+nav {
+    background-color: #ff6700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#primaryNav li:first-child {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #c0c0c0;
+    border-top: 1px solid #004e98;
+}
+
+nav ul li.active a {
+    background-color: #004e98;
+    color: #c0c0c0;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    /* direction: row; */
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+/* .bethesdaHome {
+    position: relative;
+} */
+
+#bookRoomBtn {
+    background-color: #ff6700;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 10px double #004e98;
+    font-weight: 1000;
+    font-size: xx-large;
+    color: #3a6ea5;
+}
+
+#bookRoomBtn:hover {
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main section {
+    grid-column: 2;
+}
+
+main article {
+    grid-column: 2;
+}
+
+.responsiveImg {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.responsiveBtn {
+
+    height: auto;
+}
+
+picture {
+
+    box-shadow: 0 10px 100px 0px #c0c0c0;
+}
+
+.container {
+    position: relative;
+    grid-column: 2;
+}
+
+article {
+    border: #004e98 5px double;
+    color: #004e98;
+    background-color: #ff6700;
+    padding: 30px;
+
+}
+
+article h3 {
+    text-decoration: underline;
+    line-height: 3rem;
+}
+
+article li {
+    padding: 10px;
+}
+
+article ul {
+    padding: 10px;
+}
+
+article img {
+    padding: 10px 0 0 0;
+}
+
+.servicesList {
+    list-style: lower-alpha;
+
+}
+
+.container_form {
+    width: 1000px;
+
+    background-image: url(../images/back_temple1.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.full_form {
+    background: transparent;
+    padding: 12px 50px;
+    height: auto;
+
+}
+
+
+.form_box {
+    width: 400px;
+    height: 30px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #004e98;
+    display: block;
+    color: #004e98;
+
+}
+
+.reserveBtn {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+label {
+    line-height: 2rem;
+    color: #fff;
+
+
+    font-size: 1.25rem;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    padding: 10px;
+    max-width: 400px;
+    height: 200px;
+}
+
+::placeholder {
+    color: #004e98;
+}
+
+.center {
+    padding-top: 20px;
+}
+
+.special {
+    display: flex;
+    position: fixed;
+    left: 736px;
+    top: 575px;
+
+}
+
+.special_label {
+    position: absolute;
+    right: 240px;
+    top: -32px;
+}

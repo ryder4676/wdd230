@@ -1,0 +1,30 @@
+[
+    {
+        "templeName": "Washington D.C. Temple",
+        "location": "Kensington, Maryland, United States",
+        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+        "dedicated": "Currently under renovations",
+        "templePic": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg"
+    },
+    {
+        "templeName": "Calgary Alberta Temple",
+        "location": "Calgary, Alberta, Canada",
+        "address": "9802 Rocky Ridge Rd NW Calgary AB T3G 5J7 Canada",
+        "dedicated": "28 October 2012",
+        "templePic": "https://assets.ldscdn.org/52/a7/52a74562caa3cd7c9eda1a1fb9e894b10367fe49/calgary_alberta_lds_temple.jpeg"
+    },
+    {
+        "templeName": "Fukuoka Japan Temple",
+        "location": "Fukuoka-shi, Fukuoka, Japan",
+        "address": "9-15 Hirao Johsui Machi Chuo-ku Fukuoka-shi, Fukuoka, 810-0029, Japan",
+        "dedicated": "11 June 2000",
+        "templePic": "https://assets.ldscdn.org/ac/04/ac04a895fc6de3b9b101b08d181162b1e16ab7af/fukuoka_japan_temple_lds.jpeg"
+    },
+    {
+        "templeName": "Hamilton New Zealand Temple",
+        "location": "Hamilton, Auckland, New Zealand",
+        "address": "509 Tuhikaramea Rd Temple View Hamilton 3218, New Zealand,",
+        "dedicated": "Currently under renovations",
+        "templePic": "https://assets.ldscdn.org/59/e0/59e0fb53c4b7fc66b749c5b0218a3ec41ca9dd52/hamilton_new_zealand_lds_temple.jpg"
+    }
+]
