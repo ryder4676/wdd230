@@ -24,7 +24,7 @@ const output = (temples) => {
         })
 };
 
-const url = "json/temples.json"; /*"https://byui-cse.github.io/cse121b-course/templeinn/temples.json" */
+const url = /*"json/temples.json"; */"https://byui-cse.github.io/cse121b-course/templeinn/temples.json"
 
 
 let results = null;
